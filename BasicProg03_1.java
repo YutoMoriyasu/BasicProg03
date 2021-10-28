@@ -13,11 +13,11 @@ public class BasicProg03_1 {
     System.out.println("3つ目の値を入力してください。");
     int z = stdIn.nextInt();
 
-    // // 最大値を求める
+    // 最大値を求める
     int max = x>y ? x : y;
     max = max>z ? max : z;
 
-    // // 最小値を求める
+    // 最小値を求める
     int min = x<y ? x : y;
     min = min<z ? min : z;
 
